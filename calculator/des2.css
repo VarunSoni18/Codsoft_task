@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+body{
+    box-sizing: border-box;
+    width: 100vm;
+    height: 100vh;
+     
+    background:linear-gradient(30deg,rgb(43, 43, 237), darkblue, rgb(16, 171, 218))}
+ .box{
+   position: fixed;
+   animation-fill-mode: forwards;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count:1 ;
+    transition-property: all;
+    /* height: 0%; */
+   box-shadow: 2px 2px 30px 10px white;
+    margin: 40px;
+    border: 2px solid white;
+ }
+ @keyframes move{
+   
+     0%{
+        width: 00%;
+        opacity: 0;
+     }
+     100%{
+        opacity:1;
+        width: 95.5%;
+
+     }
+     /* to{
+        width: 50%;
+     } */
+ }
+.intro{
+   
+    box-sizing: border-box;
+}
+ .text1{
+   margin-top: 4vh;
+   margin-left: 39vh;
+   position: fixed;
+    -webkit-text-stroke: 1px blue;
+    text-shadow: 4px 4px 23px  white;
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    word-spacing: 50px;
+    letter-spacing: 10px;
+    animation: fade 7s linear alternate;
+    /* animation-delay: 5s; */
+ }
+ @keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+ }
+ .text2{
+   margin-left: 57vh;
+   margin-top: 24vh;
+   position: fixed;
+    /* animation-delay: 3s; */
+    animation: fade 7s linear alternate;
+    -webkit-text-stroke: 1px blue;
+    text-shadow: 4px 4px 23px  white;  
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    word-spacing: 30px;
+ }
+ .text3{text-shadow: 4px 4px 23px  white;  
+    font-family:cursive;
+    -webkit-text-stroke: 1px rgb(91, 139, 164);
+    padding-top: 10vh;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    word-spacing: 15px;
+    animation: fade 7s linear alternate;
+    position: fixed;
+    margin-top: 31vh;
+    margin-left: 68vh;
+   }
+    .txt{text-shadow: 4px 4px 23px  white;  
+        text-decoration: none;
+        color: white;
+        /* padding: 67px; */
+        margin-left: 22%;
+        margin-top: 3%;
+        animation: fade 7s linear forwards;
+        margin-top: 55vh;
+        margin-left: 88vh;
+        position: fixed;
+    }
+.box1{
+    /* display: inline-block; */
+   /* margin: 70px; */
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count:1 ;
+    transition-property: all;
+    animation-fill-mode: forwards;
+    /* height: 0%; */
+   box-shadow: 2px 2px 30px 10px white;
+    margin: 12% 40px 40px 40px;
+    border: 2px solid white;
+    position: fixed;
+    margin-top: 90vh;
+ }
+  .container{
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   overflow: hidden;
+}
+.bubbles{
+   position: relative;
+   display: flex;
+}
+.bubbles span{
+position: relative;
+width: 30px;
+height: 30px;
+background-color: #4fc3dc;
+margin: 2vh;
+border-radius: 50%;
+box-shadow: 0 0 0 10px #4fc3dc44,
+0 0 50px #4fc3cd,0 0 100px #4fc3cd;
+animation: an 20s linear infinite;
+animation-duration: calc(90s / var(--i));
+}
+.bubbles span:nth-child(even){
+   background: rgb(241, 94, 119);
+   box-shadow: 0 0 0 10px #f15fe544,
+0 0 50px #dc50d5,0 0 100px #d20eab;
+
+}
+@keyframes an{
+0%{
+transform: translateY(100vh) scale(0);
+}
+100%{
+transform: translateY(-10vh) scale(1);
+}
+}

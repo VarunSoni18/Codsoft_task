@@ -1,0 +1,82 @@
+*{
+    background-image: url('mbk.jpg');
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family: cursive;
+
+
+}
+
+
+body{
+    box-shadow: inset 10px 10px 80px 50px wheat;
+    /* position: fixed; */
+    height: 41vh;
+    /* background-image: url('https://c4.wallpaperflare.com/wallpaper/330/785/205/equations-math-wallpaper-preview.jpg'); */
+    /* background: linear-gradient(45deg, black,white); */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding: 15%;
+}
+
+
+
+input{ padding-right: 10px;
+    border: none;
+    text-align: right;
+    background: transparent;
+    color:  wheat;
+ width: 100%;
+ margin-bottom: 30px;
+ height:100px;
+ backdrop-filter: blur(4px);
+ box-shadow: 4px 2px 60px 20px white;
+}
+input :hover{
+    cursor:pointer;
+}
+input::placeholder{
+    
+
+    color:  wheat;
+    font-size:20px;
+    font-family: cursive;
+}
+
+button{
+    backdrop-filter: blur(4px);
+    background: transparent;
+    box-shadow: 8px 8px 50px 10px  whitesmoke;
+ border: none;
+ border-radius: 50%;
+    /* background-color: rgb(125, 187, 199); */
+    margin: 0.5rem;    
+    width: 70px;
+    height: 70px;
+
+
+}
+#num {
+    color: rgb(21, 189, 164);
+}
+#num :hover{
+    cursor:grab;
+}
+
+ button :hover{
+    cursor:grab;
+}
+.operator{
+  
+    color: rgb(235, 192, 128);
+}
+.operator1{
+
+    color:rgb(34, 156, 131);
+    background-color: rgb(231, 200, 155);
+}
+ /* button .operator :hover{ */
+/* } */

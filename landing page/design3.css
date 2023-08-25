@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    position: relative;
+    height: 100vh;
+    box-shadow: inset 1px 1px 50px 1px black;
+
+}
+
+
+header::before {
+    content: "";
+    position: absolute;
+    background-image: url('tig2.jpg');
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#first {
+    backdrop-filter: blur(7px);
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+#logo {
+    margin: 30px;
+    width: 15%;
+    height: 10%;
+}
+
+#text1 {
+    position: relative;
+    height: 20%;
+    width: 52%;
+    margin-left: 48%;
+    margin-top: 14rem;
+    margin-right: 0%;
+
+}
+
+#text1 .welcome {
+    position: relative;
+    color: azure;
+    margin-left: 16%;
+    width: 42%;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: oblique;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+
+.wild {
+    color: azure;
+    display: inline-block;
+    height: 72%;
+    margin-left: 17.5%;
+    width: 83%;
+    position: relative;
+
+    font-size: 150px;
+
+}
+
+#quote {
+    font-size: 20px;
+    font-family: cursive;
+    width: 43%;
+    height: 12%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    color: azure;
+    text-align: center;
+}
+
+p.quote_tittle {
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+#second {
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+#navigation {
+    height: 6%;
+    width: 100%;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-right: 13px;
+}
+
+li.menu-item {
+    font-family: cursive;
+
+    text-shadow: 12px black;
+    margin-top: 3.7em;
+    width: 16%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.menu :hover {
+    color: black;
+    background-color: rgb(116, 239, 88);
+
+}
+
+li#nav3 {
+    margin-right: 65px;
+}
+
+li#nav4 {
+    margin-right: 35px;
+}
+
+
+.text {
+    letter-spacing: 1px;
+    color: azure;
+    text-decoration: none;
+}
+
+#text2 {
+    position: relative;
+    width: 52%;
+    height: 24%;
+    margin-top: 21.7rem;
+}
+
+.life {
+    position: relative;
+
+    color: azure;
+    width: 70%;
+    height: 69%;
+    font-weight: bold;
+    font-size: 150px;
+
+
+
+}
+
+.lover {
+    font-family: cursive;
+    position: relative;
+    color: azure;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: oblique;
+    text-transform: uppercase;
+    width: 32%;
+    height: 24%;
+    margin-left: 38.5%;
+
+}
+
+#explore {
+    text-decoration: none;
+    margin-top: 15rem;
+    margin-left: 71%;
+    text-align: center;
+    width: 16%;
+    height: 3%;
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    background-color: rgba(12, 212, 45, 0.872);
+    font-size: 20px;
+    font-size: 19px;
+    font-family: cursive;
+}
+
+.ex {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 30%;
+}
+
+#explore :hover {
+    color: black;
+
+
+}

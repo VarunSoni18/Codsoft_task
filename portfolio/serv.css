@@ -1,0 +1,363 @@
+* {
+    top: 0;
+    left: 0;
+
+}
+
+body {
+    position: relative;
+    background: linear-gradient(45deg, rgb(236, 202, 157, 0.5), rgb(247, 188, 115, 0.9), rgb(238, 199, 148, 0.5));
+    height: 100vh;
+    width: 10vm;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+.top {
+
+    position: fixed;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    display: flex;
+
+}
+
+.initial {
+    /* margin:1vh 0vh 0vh 1vh; */
+
+
+    /* background-color: tomato; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    width: 10vb;
+    /* height: 10vh; */
+}
+
+.initial img {
+    height: 11vh;
+
+}
+
+#navigation {
+    margin-top: 1vh;
+
+
+    margin-left: 10vh;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-top: 5vh;
+}
+
+.menu-item1 {
+    display: inline-block;
+
+}
+
+.menu-item {
+    margin-left: 7vh;
+
+    display: inline-block;
+
+}
+
+.bar1 {
+
+    color: rgb(78, 48, 38);
+    text-decoration: none;
+}
+#se3{
+    color: rgb(249, 5, 147);
+    text-shadow: 8px 5px 8px rgb(206, 13, 13);
+}
+
+.bar1:hover {
+    text-decoration: underline;
+    cursor: grab;
+    color: rgb(249, 5, 147);
+    text-shadow: 8px 5px 8px rgb(206, 13, 13);
+}
+
+.line {
+    position: fixed;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    /* transition-property: all; */
+    margin-top: 11vh;
+    border: 1px solid rgba(244, 164, 66, 0.9);
+    width: 200vh;
+    box-shadow: 2px 2px 30px 10px rgb(254, 241, 197);
+
+}
+
+@keyframes move {
+
+    0% {
+        width: 00vh;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        width: 200vh;
+
+    }
+
+}
+
+
+.box12 {
+    box-shadow: 2px 2px 30px 10px rgb(255, 241, 191);
+    animation-name: move1;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    border: 1px solid rgba(236, 149, 42, 0.9);
+    margin-left: 10.5vh;
+    height: 100vh;
+    position: fixed;
+}
+
+@keyframes move1 {
+    0% {
+        opacity: 0;
+        height: 0vh;
+    }
+
+    100% {
+        opacity: 1;
+        height: 100vh;
+
+    }
+}
+.line1{
+    /* border: 2px solid black; */
+    /* margin-top: 11.5vh; */
+    animation: down 3s linear forwards;
+   
+}
+@keyframes down{
+    0%{
+        height: 0vh;
+    }
+    100%{
+        height: 10vh;
+    }
+}
+.txt1{
+    font-family: 'Noto Serif', serif;
+    /* font-family: 'Lobster', cursive; */
+    text-shadow: 3px 3px 10px rgb(233, 96, 96) ;
+    display: flex;
+    justify-content: center;
+    font-size: 6vh;
+    word-spacing: 1vh;
+    animation: inc 3s linear forwards;
+}
+@keyframes inc{
+    0%{
+        color: darksalmon;
+        opacity: 0;
+     font-size: small;   
+    }60%{
+        opacity: 0.5;
+    }
+    
+    100%{ font-size: 7vh;
+        opacity: 1;
+       
+    }
+}
+#t{
+    /* padding-left: 2vh; */
+    color:indianred;
+    text-shadow: 3px 3px 10px rgb(230, 86, 86);
+}
+.contain {
+    margin-top: 26vh;
+    position: fixed;
+    display: flex;
+    /* flex-direction: row; */
+/* border: 2px solid rebeccapurple; */
+width: 200vh;
+height: 90vh;
+}
+header{
+    display: flex;
+    position: fixed;
+    
+    margin-left: 11vh;
+    margin-top: 30vh;
+    width: 186vh;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding-top: 5vh;
+}
+.conatin1{
+ color: rgb(53, 160, 69);
+    width: 35vh;
+    height: 45vh;
+    box-shadow: 1px 1px 10px 3px rgb(225, 115, 115);
+    /* margin: 4vh; */
+}
+.conatin1:hover{
+    /* animation: big  linear forwards; */
+    border-radius: 3vh;
+    background: linear-gradient(-45deg,rgb(221, 161, 88),antiquewhite,rgb(224, 138, 32));
+    color: rgb(180, 25, 25);
+    cursor: grab;
+    text-shadow: 1px 1px 8px rgb(214, 244, 217);
+    box-shadow: 5px 5px 30px 20px rgb(227, 56, 56);
+}
+.conatin1 p{
+    margin: 0vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-size: 3vh;
+    text-decoration: underline;
+}
+.conatin2 p{
+
+    margin: 0vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-size: 3vh;
+    text-decoration: underline;
+    margin-bottom: 3.5vh;
+}
+.conatin3 p{
+ 
+    margin: 0vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-size: 3vh;
+    text-decoration: underline;
+}
+.txt{
+    text-align: center;
+    font-style: italic;
+    font-size: 2vh; 
+      font-weight: 540;
+      line-height: 3vh;
+ 
+}
+ .tx{
+    text-align: center;
+    font-style: italic;
+    font-size: 2vh; 
+      font-weight: 540;
+      line-height: 3vh;
+ 
+}
+ .t{
+    text-align: center;
+    font-style: italic;
+    font-size: 2vh; 
+      font-weight: 540;
+      line-height: 3vh;
+ 
+}
+
+
+.conatin2{
+    color: rgb(103, 173, 193);
+    width: 35vh;
+    height: 45vh;
+    box-shadow: 1px 1px 10px 3px rgb(225, 115, 115);
+   
+}
+.conatin2:hover{
+    /* animation: big  linear forwards; */
+    text-shadow: 1px 1px 8px rgb(216, 245, 249);
+    border-radius: 3vh;
+    background: linear-gradient(45deg,rgb(221, 161, 88),antiquewhite,rgb(224, 138, 32));
+    color: rgb(164, 92, 92);
+    cursor: grab;
+    box-shadow: 5px 5px 30px 20px rgb(227, 56, 56);
+}
+.conatin3:hover{
+    text-shadow: 1px 1px 8px rgb(216, 245, 249);
+    border-radius: 3vh;
+    background: linear-gradient(45deg,rgb(221, 161, 88),antiquewhite,rgb(224, 138, 32));
+    color: rgb(167, 13, 13);
+    cursor: grab;
+    /* animation: big  linear forwards;  */
+    box-shadow: 5px 5px 30px 20px rgb(227, 56, 56);
+}
+.tx h2{
+    font-size: 2.5vh;
+    text-decoration: underline;
+}
+.t h2{
+    font-size: 2.5vh;
+    text-decoration: underline;
+}
+
+.conatin3{
+    color:yellow;
+    width: 35vh;
+    height: 45vh;
+    box-shadow: 1px 1px 10px 3px rgb(225, 115, 115);
+    
+}
+#t1{
+    font-size: 2.5vh;
+    /* text-decoration: underline; */
+}
+#t2{
+    text-align: center;
+    font-style: italic;
+    font-size: 2vh; 
+      font-weight: 540;
+      line-height: 3vh;
+      text-decoration: none;
+      margin-bottom: 7.5vh;
+}
+#t3{
+    color:yellow ;
+    text-decoration: none;
+    font-size: 2.6vh;
+    font-weight: 700;
+   
+}
+a{
+    text-decoration: none;
+
+}
+ .t3{
+    color: rgb(104, 175, 199);
+    text-decoration: none;
+
+    font-weight: 700;
+}
+
+@keyframes big{
+    0%{
+
+    }
+    100%{
+        width: 40vh;
+        height: 50vh;
+    }
+}
+.txtt{
+    position: fixed;
+    margin-top: 90vh;
+    margin-left: 13vh;
+    font-size: 2vh;
+    color: indianred;
+
+}

@@ -1,0 +1,272 @@
+* {
+    top: 0;
+    left: 0;
+
+}
+
+body {
+    position: relative;
+    background: linear-gradient(45deg, rgb(236, 202, 157, 0.5), rgb(247, 188, 115, 0.9), rgb(238, 199, 148, 0.5));
+    height: 100vh;
+    width: 10vm;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+.top {
+    backdrop-filter: blur(10px);
+    position: fixed;
+
+    position: fixed;
+
+    display: flex;
+
+}
+
+.initial {
+    /* margin:1vh 0vh 0vh 1vh; */
+
+
+    /* background-color: tomato; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    width: 10vb;
+    /* height: 10vh; */
+}
+
+.initial img {
+    height: 11vh;
+
+}
+
+#navigation {
+    margin-top: 1vh;
+
+
+    margin-left: 10vh;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-top: 5vh;
+}
+
+.menu-item1 {
+    display: inline-block;
+
+}
+
+
+.menu-item {
+    margin-left: 7vh;
+
+    display: inline-block;
+
+}
+
+.bar1 {
+
+    color: rgb(78, 48, 38);
+    text-decoration: none;
+}
+
+.bar1:hover {
+    text-decoration: underline;
+    cursor: grab;
+    color: rgb(249, 5, 147);
+    text-shadow: 8px 5px 8px rgb(206, 13, 13);
+}
+
+.line {
+    position: fixed;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    /* transition-property: all; */
+    margin-top: 11vh;
+    border: 1px solid rgba(244, 164, 66, 0.9);
+    width: 200vh;
+    box-shadow: 2px 2px 30px 10px rgb(254, 241, 197);
+
+}
+
+@keyframes move {
+
+    0% {
+        width: 00vh;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        width: 200vh;
+
+    }
+
+}
+#hme{
+    color: rgb(249, 5, 147);
+    text-shadow: 8px 5px 8px rgb(206, 13, 13);
+}
+.contain {
+    margin-top: 11vh;
+    position: fixed;
+    display: flex;
+
+}
+
+.box1 {
+    position: fixed;
+    box-shadow: 2px 2px 30px 10px rgb(255, 241, 191);
+    animation-name: move1;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    border: 1px solid rgba(236, 149, 42, 0.9);
+    margin-left: 10.5vh;
+    height: 100vh;
+}
+
+@keyframes move1 {
+    0% {
+        opacity: 0;
+        height: 0vh;
+    }
+
+    100% {
+        opacity: 1;
+        height: 100vh;
+
+    }
+}
+
+.box12 {
+    /* border: 1px solid rgb(174, 68, 68); */
+    animation-name: left;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* animation: left 3s linear alternate ; */
+}
+
+@keyframes left {
+    0% {
+        width: 0vh;
+    }
+
+    100% {
+        width: 20vh;
+
+    }
+}
+
+.box2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 17vh;
+    /* border: 1px solid rgb(174, 68, 68); */
+    width: 80vh;
+    height: 100vh;
+    animation: fade 4s linear forwards;
+}
+
+@keyframes fade {
+    0% {
+        color: rgb(180, 173, 163);
+        opacity: 0;
+
+    }
+
+    50% {
+        color: rgb(58, 53, 46);
+
+        opacity: 0.5;
+    }
+
+    100% {
+        color: black;
+
+        opacity: 1;
+
+    }
+}
+
+.txt1 {
+    padding-left: 0.7vh;
+    height: 1.5vh;
+    font-size: 2.5vh;
+    margin-bottom: 0vh;
+}
+
+.txt2 {
+    animation: fades 4s linear forwards;
+    margin-bottom: 0vh;
+    margin-top: 0vh;
+    font-size: 12vh;
+    height: 10vh;
+}
+@keyframes fades {
+    0% {
+        color:rgb(191, 240, 164);
+        opacity: 0;
+
+    }
+
+    40% {
+        color: rgb(17, 104, 151);
+
+       
+    }
+
+    100% {
+        color: rgb(215, 16, 16);
+
+        opacity: 1;
+
+    }
+}
+
+.txt3 {
+    margin-bottom: 0vh;
+    margin-top: 2vh;
+    padding-left: 0.7vh;
+    font-size: 5vh;
+}
+
+.txt4 {
+    margin-bottom: 0vh;
+    padding-left: 0.7vh;
+
+    margin-top: 1vh;
+    font-size: 3vh;
+}
+.image{ animation: fade 4s linear forwards;
+
+    margin-top: 25vh;
+    margin-left: 120vh;
+    width: 40vh;
+}
+.im1{
+    animation: fade 4s linear forwards;
+
+    margin-top: 52vh;
+    margin-left: 80vh;
+    position: fixed;
+    width: 40vh;
+}
+.im2{
+    animation: fade 4s linear forwards;
+
+    margin-top: 17vh;
+    margin-left: 160vh;
+    height:30vh ;
+    position: fixed;
+    width: 30vh;
+}
